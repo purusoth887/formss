@@ -1,0 +1,223 @@
+<!-- Index.html -->
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0"> 
+	<!-- Linking css file -->
+	<link rel="stylesheet" href="style.css"> 
+	<title>Survey Form</title> 
+</head> 
+
+<body> 
+
+	<!-- Creating the form container -->
+	<div class="container"> 
+		<h1> Form</h1> 
+
+		<!-- Contains error -->
+		<h4 id="errorText"></h4> 
+		
+		<!-- Form element -->
+		<form id="surveyForm"> 
+
+			<label for="name"> 
+				Name: 
+			</label><br> 
+			<input type="text"
+				id="name"
+				name="name"
+				required><br> 
+
+			<label for="age"> 
+				Age: 
+			</label><br> 
+			<input type="number"
+				id="age"
+				name="age"
+				required><br> 
+				<label for="gender">Gender:</label><br> 
+				<input type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                required>
+				<label for="male">Male</label><br>
+				<input type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                required>
+				<label for="female">Female</label><br>
+				<label for="dob">Dob</label><br>
+				<input type="date"
+                id="dob"
+                name="dob"
+                required><br>
+				<label for="email">Email:</label><br>
+				<input type="email"
+                id="email"
+                name="email"
+                required><br>
+				<label for="phone">Phone:</label><br>
+				<input type="tel"
+                id="phone"
+                name="phone"
+                required><br>
+				<label for="fax">Fax:</label><br>
+				<input type="tel"
+                id="fax"
+                name="fax"><br>
+				<label for="address">Address:</label><br>
+				<textarea
+                id="address"
+                name="address"
+                required></textarea><br>
+				<label for="country">Country:</label><br>
+				<select
+                id="country"
+                name="country"
+                required>
+				    <option value="">Select Country</option>
+					<option value="USA">USA</option>
+					<option value="UK">UK</option>
+					<option value="Canada">Canada</option>
+					<option value="Australia">Australia</option>
+					<option value="Germany">Germany</option>
+					<option value="France">France</option>
+					<option value="Italy">Italy</option>
+					<option value="Japan">Japan</option>
+					<option value="China">China</option>
+					<option value="India">India</option>
+					<option value="Russia">Russia</option>
+					<option value="Other">Other</option>
+					</select><br>
+					<label for="occupation">Occupation:</label><br>
+					<input type="text"
+                id="occupation"
+                name="occupation"
+                required><br>
+				<label for="education">Education:</label><br>
+				<input type="text"
+                id="education"
+                name="education"
+                required><br>
+				<label for="income">Income:</label><br>
+				<input type="number"
+                id="income"
+                name="income"
+                required><br>
+				<label for="hobbies">Hobbies:</label><br>
+				<input type="checkbox"
+                id="reading"
+                name="hobbies"
+                value="reading"
+                required>
+				<label for="reading">Reading</label><br>
+				<input type="checkbox"
+                id="painting"
+                name="hobbies"
+                value="painting"
+                required>
+				<label for="painting">Painting</label><br>
+				<input type="checkbox"
+                id="cooking"
+                name="hobbies"
+                value="cooking"
+                required>
+				<label for="cooking">Cooking</label><br>
+				<input type="checkbox"
+                id="gaming"
+                name="hobbies"
+                value="gaming"
+                required>
+				<label for="gaming">Gaming</label><br>
+				<label for="interests">Interests:</label><br>
+				<input type="checkbox"
+                id="music"
+                name="interests"
+                value="music"
+                required>
+				<label for="music">Music</label><br>
+				<input type="checkbox"
+                id="sports"
+                name="interests"
+                value="sports"
+                required>
+				<label for="sports">Sports</label><br>
+				<input type="checkbox"
+                id="travel"
+                name="interests"
+                value="travel"
+                required>
+				<label for="travel">Travel</label><br>
+				<input type="checkbox"
+                id="art"
+                name="interests"
+                value="art"
+                required>
+				<label for="languages">Languages:</label><br>
+				<input type="checkbox"
+                id="english"
+                name="languages"
+                value="english"
+                required>
+				<label for="english">English</label><br>
+				<input type="checkbox"
+                id="spanish"
+                name="languages"
+                value="spanish"
+                required>
+				<label for="spanish">Spanish</label><br>
+				<input type="checkbox"
+                id="french"
+                name="languages"
+                value="french"
+                required>
+				<label for="french">French</label><br>
+				<input type="checkbox"
+                id="german"
+                name="languages"
+                value="german"
+                required>
+				<label for="german">German</label><br>
+				<input type="checkbox"
+                id="russian"
+
+                name="languages"
+                value="russian"
+                required>
+				<label for="russian">Russian</label><br>
+				<input type="checkbox"
+                id="chinese"
+                name="languages"
+                value="chinese"
+                required>
+				<label for="chinese">Chinese</label><br>
+				<input type="checkbox"
+                id="japanese"
+                name="languages"
+                value="japanese"
+                required>
+				<label for="japanese">Japanese</label><br>
+				<input type="checkbox"
+                id="other"
+                name="languages"
+                value="other"
+                required>
+			
+
+			<button type="submit"> 
+				Submit 
+			</button> 
+		</form> 
+	</div> 
+
+	<!-- linking javascript file -->
+	<script src="script.js"></script> 
+</body> 
+
+</html>
